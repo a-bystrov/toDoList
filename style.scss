@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Quicksand';
+    background: #F5F5F5;
+}
+
+.container {
+    width: 700px;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    button {
+        height: 30px;
+        background: none;
+        outline: none;
+        border: 2px solid #1ca600;
+        color:#A7D6B9;
+        &:hover {
+            cursor: pointer;
+            background: #A7D6B9;
+            color:black;
+        }
+    }
+    .enterTask {
+        input {
+            width: 80%;
+            height: 30px;
+            padding-left: 10px;
+            outline: none;
+            border: 2px solid #A7D6B9;
+            color:black;
+            background: white;
+        }
+        button {
+            width: 20%;
+        }
+    }
+    .task {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .taskImg {
+            display: flex;
+            align-items: center;
+        }
+        img {
+            cursor: pointer;
+            &:hover {
+                transform: rotate(10deg);
+            }
+        }
+    }
+    .btnClearItems {
+        margin-top: 30px;
+    }
+}

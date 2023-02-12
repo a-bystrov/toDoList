@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand";
+  background: #F5F5F5;
+}
+
+.container {
+  width: 700px;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container button {
+  height: 30px;
+  background: none;
+  outline: none;
+  border: 2px solid #A7D6B9;
+  color: #A7D6B9;
+}
+.container button:hover {
+  cursor: pointer;
+  background: #A7D6B9;
+  color: black;
+}
+.container .enterTask input {
+  width: 80%;
+  height: 30px;
+  padding-left: 10px;
+  outline: none;
+  border: 2px solid #A7D6B9;
+  color: black;
+  background: white;
+}
+.container .enterTask button {
+  width: 20%;
+}
+.container .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .task h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.container .task .taskImg {
+  display: flex;
+  align-items: center;
+}
+.container .task img {
+  cursor: pointer;
+}
+.container .task img:hover {
+  transform: rotate(10deg);
+}
+.container .btnClearItems {
+  margin-top: 30px;
+}/*# sourceMappingURL=style.css.map */
